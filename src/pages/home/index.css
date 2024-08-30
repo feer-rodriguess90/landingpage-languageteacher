@@ -1,0 +1,256 @@
+
+body {
+    background-color: #d9d9d9;   
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.secao-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+
+    padding: 20px;
+    background-color: #d9d9d9;
+
+}
+
+.secao-inicio header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    width: 100%;
+}
+
+.secao-inicio header h3 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.secao-inicio header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.secao-inicio header nav a {
+    font: 600 18px 'Open Sans';
+    
+    
+}
+
+.secao-inicio main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+.secao-inicio main .textos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 600px;
+
+}
+
+.secao-inicio main .textos h1 {
+    font: 400 60px/80px 'Pacifico';
+
+}
+
+.secao-inicio main .textos p {
+    font: 500 18px/30px 'Open Sans';
+    text-align: justify;
+    
+
+}
+
+.secao-inicio main .textos button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    font: 600 20px 'Open Sans';
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+
+}
+
+.secao-inicio .textos button:hover,
+button:focus {
+    background: #0053ba;
+    color: #ffffff;
+}
+
+.secao-inicio .textos button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.secao-inicio .textos button:active {
+    transform: scale(0.99);
+}
+
+.secao-inicio main .capa {
+    width: 500px;
+    height: 400px;
+
+    position: relative;
+    top: 40px;
+
+}
+
+
+.secao-pacotes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(to top, #c4cae0, #d9d9d9);
+    gap: 80px;
+    height:700px;
+
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.secao-pacotes .textos{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+    text-align: justify;
+}
+
+.secao-pacotes .textos h1 {
+  font: 500 50px/50px 'Lobster';
+  text-align: center;
+  padding: 20px;
+}
+
+.secao-pacotes .textos h3 {
+    font: 100 30px 'Lobster';
+    text-align: center;
+  }
+
+.secao-pacotes .textos p {
+  font: 400 16px/25px "Roboto";
+  text-align: justify;
+  }
+
+.secao-pacotes .textos button {
+    display: inline-block;
+    border: none;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+}
+
+.secao-pacotes .textos button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+.secao-pacotes .textos button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.secao-pacotes .textos button:active {
+    transform: scale(0.99);
+}
+
+.group {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000 ;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(to top, #d9d9d9, #c4cae0);
+}
+
+.form-section {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f7f8;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.form-section h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="telefone"],
+.form-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.form-section button {
+    display: inline-block;
+    border: none;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+}
+
+.form-section button:hover {
+    background-color: #0056b3;
+}
