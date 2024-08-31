@@ -29,10 +29,13 @@ a {
     width: 100%;
 }
 
-.secao-inicio header h3 {
+.secao-inicio header a {
     display: flex;
     flex-direction: row;
-    
+    font: 700 18px 'Open Sans';
+    gap: 10px;
+    align-items: center;
+    text-transform: uppercase;
 }
 
 .secao-inicio header nav {
@@ -43,6 +46,8 @@ a {
 
 .secao-inicio header nav a {
     font: 600 18px 'Open Sans';
+    gap: 10px;
+    align-items: center;
     
     
 }
@@ -51,6 +56,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 50px;
 
     
     max-width: 1200px;
@@ -79,23 +85,27 @@ a {
 }
 
 .secao-inicio main .textos button {
-    background-color: #ffffff;
-    color: #000000;
+    display: inline-block;
     border: none;
-    font: 600 20px 'Open Sans';
-    padding: 10px 15px;
     border-radius: 100px;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    box-shadow: 5px 5px 0 1px #57F2B7;
+    background-color: #ffffff69;
+    font: 700 22px 'Open Sans';
+    text-transform: uppercase;
     cursor: pointer;
     text-align: center;
-    transition: background 250ms ease-in-out, 
+    transition: background 250ms ease, 
                 transform 150ms ease;
 
 }
 
 .secao-inicio .textos button:hover,
 button:focus {
-    background: #0053ba;
-    color: #ffffff;
+    background: #57F287;
+    box-shadow: 5px 5px 0 1px #000000;
 }
 
 .secao-inicio .textos button:focus {
@@ -107,86 +117,150 @@ button:focus {
     transform: scale(0.99);
 }
 
+.secao-inicio main .imagem-capa{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: #d9d9d9;
+    
+
+    position: relative;
+    left: 120px;
+}
+
 .secao-inicio main .capa {
     width: 500px;
     height: 400px;
+    
 
     position: relative;
     top: 40px;
+    left: 80px;
 
 }
 
-
-.secao-pacotes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background: linear-gradient(to top, #c4cae0, #d9d9d9);
-    gap: 80px;
-    height:700px;
-
-    align-items: center;
-    padding-bottom: 30px;
-}
-
-.secao-pacotes .textos{
+.pacotes {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    gap: 20px;
-    text-align: justify;
+    background: linear-gradient(to top, #c4cae0, #d9d9d9);
+    padding: 30px;
+    width: 100%;
 }
 
-.secao-pacotes .textos h1 {
-  font: 500 50px/50px 'Lobster';
-  text-align: center;
-  padding: 20px;
+.pacotes header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
 }
 
-.secao-pacotes .textos h3 {
-    font: 100 30px 'Lobster';
+.pacotes header h3{
+    font: 500 50px/50px 'Lobster';
     text-align: center;
-  }
+    padding: 20px;
+    font-style: italic;
+    text-shadow: -2px 2px 2px #999;
+    box-shadow: 5px 5px 0 1px #57F2B7;
+    background-color: #ffffff69;
+    border-radius: 6px 12px 18px 24px;
+}
 
-.secao-pacotes .textos p {
-  font: 400 16px/25px "Roboto";
-  text-align: justify;
-  }
+.pacotes main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+}
 
-.secao-pacotes .textos button {
+.pacotes main .texto1{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+.pacotes main .texto2{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+.pacotes main .texto3{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+.pacotes main .texto4{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+.pacotes .price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.pacotes .price h4 {
+    font: 30px/35px 'Pacifico';
+    padding: 30px;
+    text-shadow: -2px 2px 2px #999;
+    box-shadow: 5px 5px 0 1px #57F2B7;
+    background-color: #ffffff69;
+    border-radius: 6px 24px 6px 34px;
+}
+
+.pacotes .botao-assine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px;
+
+}
+
+.pacotes .botao-assine button {
     display: inline-block;
     border: none;
     border-radius: 100px;
     padding: 1rem 2rem;
     margin: 0;
     text-decoration: none;
-    background: #0069ed;
-    color: #ffffff;
-    font-family: sans-serif;
-    font-size: 20px;
+    box-shadow: 5px 5px 0 1px #57F2B7;
+    background-color: #fff;
+    font: 700 18px 'Open Sans';
+    text-transform: uppercase;
     cursor: pointer;
     text-align: center;
-    transition: background 250ms ease-in-out, 
+    transition: background 250ms ease, 
                 transform 150ms ease;
 }
 
-.secao-pacotes .textos button:hover,
+.pacotes .botao-assine button:hover,
 button:focus {
-    background: #0053ba;
+    background: #57F287;
+    box-shadow: 5px 5px 0 1px #000000;
 }
 
-.secao-pacotes .textos button:focus {
+.pacotes .botao-assine button:focus {
     outline: 1px solid #fff;
     outline-offset: -4px;
 }
 
-.secao-pacotes .textos button:active {
+.pacotes .botao-assine button:active {
     transform: scale(0.99);
 }
 
 .group {
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
     border: 1px solid #000 ;
 }
 
@@ -194,7 +268,8 @@ button:focus {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    height: 700px;
+    padding: 90px;
     background: linear-gradient(to top, #d9d9d9, #c4cae0);
 }
 
@@ -253,4 +328,53 @@ button:focus {
 
 .form-section button:hover {
     background-color: #0056b3;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 20px;
+    padding: 230px 20px 290px 20px;
+
+}
+
+.botoes i {
+    font-size: 80px;
+    margin-bottom: 25px;
+
+}
+
+.botoes .button-link{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    font: 700 24px 'Roboto';
+
+    box-shadow: 10px 10px 0 1px #57F2B7;
+    background-color: #fff;
+    color: #000;
+    width: 360px;
+    height: 300px;
+
+}
+
+.botoes .button-link:hover,
+button:focus {
+    background: #57F287;
+    box-shadow: 10px 10px 0 1px #000000;
+}
+
+.botoes .button-link:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.botoes .button-link:active {
+    transform: scale(0.99);
 }
