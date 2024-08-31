@@ -21,10 +21,10 @@ A proposta do projeto é desenvolver uma página para professores de idiomas, on
 Se você deseja contribuir com o projeto, sinta-se à vontade para fazer um fork do repositório e enviar um pull request com suas sugestões ou melhorias.
 
 Faça um fork do repositório
-Crie uma branch com a nova funcionalidade: `git checkout -b minha-funcionalidade` <br>
-Commit suas alterações: `git commit -m 'Adicionei uma nova funcionalidade'` <br>
-Envie para a branch principal: `git push origin minha-funcionalidade` <br>
-Abra um pull request
+1. Crie uma branch com a nova funcionalidade: `git checkout -b minha-funcionalidade` <br>
+2. Commit suas alterações: `git commit -m 'Adicionei uma nova funcionalidade'` <br>
+3. Envie para a branch principal: `git push origin minha-funcionalidade` <br>
+4. Abra um pull request
 
 ## Contato 📩
 Se você tiver dúvidas ou sugestões, entre em contato por meio do das redes sociais ou email.
