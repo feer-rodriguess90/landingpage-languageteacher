@@ -30,3 +30,7 @@ Faça um fork do repositório
 Se você tiver dúvidas ou sugestões, entre em contato por meio do das redes sociais ou email.
 
 Happy coding! 👩‍💻
+
+[![linkedin](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/datavizwithfer/) 
+[![medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@DataVizWithFer)
+
